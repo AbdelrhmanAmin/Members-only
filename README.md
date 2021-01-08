@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Author
 
-Things you may want to cover:
+😎 **Abdo Amin**
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
+- Twitter: [@Abdo Amin](https://twitter.com/AbdoAmi60489112)
+- LinkedIn: [@Abdo Amin](https://www.linkedin.com/in/abdo-amin-ab786a1b0/)
