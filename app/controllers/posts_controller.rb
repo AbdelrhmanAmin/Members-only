@@ -8,17 +8,10 @@ class PostsController < ApplicationController
     @posts = Post.all.order('created_at DESC')
   end
 
-  # GET /posts/1
-  # GET /posts/1.json
-  def show; end
-
   # GET /posts/new
   def new
     @post = current_user.posts.build
   end
-
-  # GET /posts/1/edit
-  def edit; end
 
   # POST /posts
   # POST /posts.json
