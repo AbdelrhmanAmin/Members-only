@@ -2,6 +2,11 @@ class PostsController < ApplicationController
   before_action :set_post, only: %i[show edit update destroy]
   before_action :authenticate_user!, only: %i[new create]
 
+  def signed_in_only!
+    # current_user in ApplicationController must be defined as helper method to make it work
+    redirect_to  new_user_session_path unless current_user
+  end
+
   # GET /posts
   # GET /posts.json
   def index
