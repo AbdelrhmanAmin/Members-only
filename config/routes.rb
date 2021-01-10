@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { registrations: 'registrations' }
-  resources :posts
+  resources :posts, only: %i[new create show]
   devise_scope :user do
+    get '/users/sign_in' => 'devise/sessions#new'
+    get '/users/sign_in' => 'devise/sessions#create'
     get '/users/sign_out' => 'devise/sessions#destroy'
   end
   root "posts#index"
