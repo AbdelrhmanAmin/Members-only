@@ -21,7 +21,7 @@
           <td><strong><%= post.user.name %></strong></td>
           <td><%= post.title %></td>
           <td><%= post.body %></td>
-          <td><%= link_to 'Edit', edit_post_path(post) %></td>
+          <td><%= link_to 'Edit',root_path(post) %></td>
           <%else%>
           <td><%= post.title %></td>
           <td><%= post.body %></td>
