@@ -18,7 +18,7 @@ Internet browser: Firefox, Google Chrome, Opera...
 [Install Ruby](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming)
 [Install Rails](https://www.theodinproject.com/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails)
 
-### Setup
+### Setup ###
 git clone https://github.com/AbdelrhmanAmin/Members-only.git
 cd Members-only
 bundle install
